@@ -1,0 +1,8 @@
+Instance ID
+i-02a89551dd6e40b3a (node1)
+Open an SSH client.
+Locate your private key file. The key used to launch this instance is awskey.pem
+Run this command, if necessary, to ensure your key is not publicly viewable.
+ chmod 400 awskey.pem
+Connect to your instance using its Public DNS:
+ ec2-18-116-34-183.us-east-2.compute.amazonaws.com
